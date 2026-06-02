@@ -6,11 +6,11 @@ The workflow uses particle swarm optimization (PSO) to find stiffness reduction 
 
 ## What is in this repository
 
-- `/tmp/workspace/MTalebi/FEMU-for-Damage-Detection-in-Bridge-using-PSO-OAPI-in-SAP2000/Main_SteelBridgeDDTH_Model_Updating.m`  
+- `Main_SteelBridgeDDTH_Model_Updating.m`  
   Main script. Loads files, builds optimization groups, runs PSO, and plots measured versus simulated acceleration.
-- `/tmp/workspace/MTalebi/FEMU-for-Damage-Detection-in-Bridge-using-PSO-OAPI-in-SAP2000/Objective_Fun.m`  
+- `Objective_Fun.m`  
   Objective function called by PSO. Updates group stiffness modifiers, runs analysis, reads acceleration results, and returns the error value.
-- `/tmp/workspace/MTalebi/FEMU-for-Damage-Detection-in-Bridge-using-PSO-OAPI-in-SAP2000/Bridge Example under Moving Load in SAP2000/`  
+- `Bridge Example under Moving Load in SAP2000/`  
   Example SAP2000 model and measured acceleration data.
 
 ## Main features in the current code
